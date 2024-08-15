@@ -3,7 +3,7 @@ import "./style.css";
 const Logo = () => {
   return (
     <div className="logo">
-      <Link to="/login" className="logotxt">
+      <Link to="/" className="logotxt">
         <img src="./logo.svg" className="logoimg" />
       </Link>
       <Link to="/" className="logotxt">
