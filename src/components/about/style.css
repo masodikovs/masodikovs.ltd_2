@@ -1,0 +1,158 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15%;
+  margin-top: 30px;
+  padding: 40px 0;
+}
+.about_img2 {
+  height: 700px;
+  width: 700px;
+  margin-top: -30px;
+  margin-right: -150px;
+  transform: scaleX(-1);
+}
+.about_text {
+  margin-top: 170px;
+  text-align: start;
+  max-width: 40%;
+}
+.about_text_head {
+  font-size: 52px;
+  font-weight: bold;
+}
+.about_text_title {
+  margin-top: 10px;
+  color: #646464;
+  transition: all 0.3s ease-in-out;
+  height: 100px;
+}
+@media (max-width: 1700px) {
+  .about_text_title {
+    height: 120px;
+  }
+}
+@media (max-width: 1400px) {
+  .about_text_title {
+    height: 160px;
+  }
+}
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+.data_base_button {
+  border: 1px solid #fce4a6;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  padding: 20px 0;
+  margin-top: 40px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.data_base_button:hover {
+  background-color: #363636;
+  transform: scale(1.02);
+}
+@media (max-width: 1200px) {
+  .about_img2 {
+    height: 500px;
+    width: 500px;
+  }
+  .about_text {
+    margin-top: 70px;
+    font-size: 15px;
+  }
+
+  .about_text_head {
+    font-size: 42px;
+  }
+  .data_base_button {
+    border: 1px solid #fce4a6;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 16px 0;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+  }
+  .about_img2 {
+    order: 1;
+    height: 300px;
+    width: 300px;
+    margin-right: -20px;
+  }
+  .about_text {
+    order: 2;
+    max-width: 90%;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .about_text_head {
+    font-size: 58px;
+    font-weight: bold;
+  }
+  .about_text_title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #646464;
+    height: 100px;
+  }
+  .data_base_button {
+    max-width: 400px;
+    padding: 15px 0;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .data_base_button:hover {
+    background-color: #363636;
+    transform: scale(1.02);
+  }
+}
+@media (max-width: 850px) {
+  .about_text_title {
+    height: 140px;
+  }
+}
+@media (max-width: 600px) {
+  .about_text_head {
+    font-size: 42px;
+  }
+  .about_text_title {
+    height: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .about_text_title {
+    height: 230px;
+  }
+}
+@media (max-width: 410px) {
+  .about_text_head {
+    font-size: 32px;
+  }
+  .about_text_title {
+    margin-top: 20px;
+  }
+  .about_text_title {
+    height: 280px;
+  }
+}
+@media (max-width: 370px) {
+  .about_text_title {
+    height: 320px;
+  }
+}

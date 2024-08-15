@@ -1,0 +1,126 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 5%;
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 21px;
+  height: 40px;
+}
+.logoimg {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+.logoimg:hover {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+.logotxt {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.logotxt:hover {
+  transform: scale(0.99);
+}
+.menu {
+  display: flex;
+
+  column-gap: 50px;
+  font-size: 14px;
+}
+.itemmenu {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.itemmenu:hover {
+  color: #fce4a6;
+  transform: scale(0.99);
+}
+.menu_mobile {
+  display: none;
+}
+.menu_container {
+  display: none;
+}
+.menu_hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  pointer-events: none;
+}
+.menu_hover.open {
+  pointer-events: all;
+}
+@media (max-width: 750px) {
+  .header {
+    margin: 20px 5%;
+  }
+  .menu {
+    display: none;
+  }
+  .menu_mobile {
+    display: flex;
+    align-items: center;
+  }
+  .burger {
+    height: 35px;
+    transition: all 0.3s ease-in-out;
+  }
+  .burger:hover {
+    transform: scale(1.1);
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .logoimg {
+    margin-right: 15px;
+    height: 35px;
+  }
+  .menu_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 250px;
+    background-color: #000000;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+    z-index: 10;
+    border: 1px #fce4a6 solid;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    overflow: hidden;
+  }
+  .menu_container.open {
+    transform: translateX(0%);
+    pointer-events: all;
+  }
+  .itemmenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 20px 0;
+    border-bottom: 1px #afafaf57 solid;
+  }
+  .itemmenu span {
+    padding-right: 20px;
+  }
+  .close_span {
+    color: rgb(255, 36, 36);
+  }
+}

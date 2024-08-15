@@ -1,0 +1,8 @@
+.MainPage {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+footer {
+  height: 200px;
+}

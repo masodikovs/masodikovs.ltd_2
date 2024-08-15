@@ -1,0 +1,82 @@
+.firewall {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.header_firewall {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 590;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+.header_firewall:hover {
+  transform: scale(0.97);
+  opacity: 0.9;
+}
+.registration {
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1px #fce4a6 solid;
+  height: 400px;
+  width: 500px;
+  margin-top: 150px;
+}
+.reg_undertitle {
+  margin-top: 10px;
+  color: #8d8d8d;
+  cursor: pointer;
+}
+.reg_head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.reg_title {
+  color: #858585;
+  width: 80%;
+  margin: 0 auto;
+}
+.lock {
+  height: 60px;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+.lock:hover {
+  opacity: 0.9;
+  transform: scale(0.95);
+}
+.password {
+  width: 75%;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 15px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  transition: all 0.33s ease-in-out;
+  text-decoration: none;
+  border: 1px rgb(54, 54, 54) solid;
+  padding-left: 15px;
+}
+.pass_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40%;
+  border: 1px #444444 solid;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.pass_button:hover {
+  border: 1px #ffffff solid;
+  background-color: rgb(39, 37, 37);
+  transform: scale(1.02);
+}

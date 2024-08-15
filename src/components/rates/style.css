@@ -1,0 +1,96 @@
+.rates {
+  padding: 150px 0;
+}
+.rates_head {
+  font-size: 36px;
+  font-weight: bold;
+}
+.rates_table {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #fce4a6;
+  width: 750px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.rates_column_l {
+  border-right: 1px solid #fce4a6;
+}
+.rates_column_l,
+.rates_column_r {
+  text-align: start;
+  width: 50%;
+}
+.value,
+.value_l,
+.value_f {
+  border-bottom: 1px solid #3b3b3b;
+  padding: 0 30px;
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.value,
+.value_l {
+  font-family: "Roboto";
+}
+.value img,
+.value_l img,
+.value_f img {
+  height: 25px;
+  margin-right: 10px;
+}
+.value_f {
+  font-size: 24px;
+  font-weight: 800;
+  border-bottom: 1px solid #fce4a6;
+}
+.value_l {
+  border-bottom: 0px solid #fce4a6;
+}
+.rates_link {
+  font-size: 14px;
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+  justify-content: end;
+  padding-top: 20px;
+  padding-right: 60px;
+  color: #646464;
+}
+.wise_link {
+  padding-left: 4px;
+  color: #fce4a6;
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .rates_table {
+    width: 90%;
+  }
+  .rates_link {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .rates_head {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .value,
+  .value_l,
+  .value_f {
+    font-size: 18px;
+  }
+  .value img,
+  .value_l img,
+  .value_f img {
+    height: 22px;
+  }
+  .value_f {
+    font-size: 20px;
+  }
+}
