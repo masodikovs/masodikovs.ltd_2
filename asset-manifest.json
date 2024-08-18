@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/masodikovs.ltd/static/css/main.04faf957.css",
-    "main.js": "/masodikovs.ltd/static/js/main.46c6ee94.js",
+    "main.js": "/masodikovs.ltd/static/js/main.a85a5c55.js",
     "static/js/453.ddf5b668.chunk.js": "/masodikovs.ltd/static/js/453.ddf5b668.chunk.js",
     "index.html": "/masodikovs.ltd/index.html",
     "main.04faf957.css.map": "/masodikovs.ltd/static/css/main.04faf957.css.map",
-    "main.46c6ee94.js.map": "/masodikovs.ltd/static/js/main.46c6ee94.js.map",
+    "main.a85a5c55.js.map": "/masodikovs.ltd/static/js/main.a85a5c55.js.map",
     "453.ddf5b668.chunk.js.map": "/masodikovs.ltd/static/js/453.ddf5b668.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04faf957.css",
-    "static/js/main.46c6ee94.js"
+    "static/js/main.a85a5c55.js"
   ]
 }
