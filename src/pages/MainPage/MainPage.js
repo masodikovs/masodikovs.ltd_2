@@ -10,8 +10,9 @@ const MainPage = () => {
     <div className="MainPage">
       <Header />
       <About id="about" />
-      <Rates id="rates" />
+
       <Contact id="contact" />
+      <Rates id="rates" />
       <footer />
     </div>
   );
