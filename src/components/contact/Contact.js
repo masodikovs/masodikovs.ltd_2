@@ -14,7 +14,7 @@ const Contact = () => {
       </div>
       <div className="contact_info">
         <video autoPlay loop muted>
-          <source src="/contact_back.webm" type="video/webm" />
+          <source src="./contact_back.webm" type="video/webm" />
           Your browser does not support the video tag.
         </video>
         <div className="contact_box">
