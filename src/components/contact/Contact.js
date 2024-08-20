@@ -13,10 +13,17 @@ const Contact = () => {
         </div>
       </div>
       <div className="contact_info">
+        <video autoPlay loop muted>
+          <source src="/contact_back.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
         <div className="contact_box">
           <div className="cont_mas">masodikov.ltd</div>
           <div className="cont">
-            Address:
+            <div className="contact_icon">
+              <img src="./icon_1.svg" alt="" className="icon" />
+              <div>Address:</div>
+            </div>
             <div
               className="cont_l"
               onClick={() => {
@@ -29,7 +36,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="cont">
-            Phone number:
+            <div className="contact_icon">
+              <img src="./icon_2.svg" alt="" className="icon" />
+              Phone number:
+            </div>
             <div
               className="cont_l"
               onClick={() => {
@@ -59,7 +69,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="cont">
-            Mail:{" "}
+            <div className="contact_icon">
+              <img src="./icon_3.svg" alt="" className="icon" />
+              Mail:{" "}
+            </div>
             <div
               className="cont_l"
               onClick={() => {
@@ -72,7 +85,10 @@ const Contact = () => {
             </div>
           </div>
           <div className="cont">
-            Telegram:{" "}
+            <div className="contact_icon">
+              <img src="./icon_4.svg" alt="" className="icon" />
+              Telegram:{" "}
+            </div>
             <div
               className="cont_l"
               onClick={() => {

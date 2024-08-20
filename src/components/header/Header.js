@@ -21,13 +21,13 @@ const Header = () => {
           </Link>
         </div>
         <div className="itemmenu">
-          <Link to="rates" smooth={true} duration={500}>
-            EXCHANGE RATES
+          <Link to="contact" smooth={true} duration={500}>
+            CONTACT
           </Link>
         </div>
         <div className="itemmenu">
-          <Link to="contact" smooth={true} duration={500}>
-            CONTACT
+          <Link to="rates" smooth={true} duration={500}>
+            EXCHANGE RATES
           </Link>
         </div>
       </div>
@@ -45,14 +45,14 @@ const Header = () => {
             <span>ABOUT</span>
           </div>
         </Link>
-        <Link to="rates" onClick={closingMenu} smooth={true} duration={500}>
-          <div className="itemmenu">
-            <span>EXCHANGE RATES</span>
-          </div>
-        </Link>
         <Link to="contact" onClick={closingMenu} smooth={true} duration={500}>
           <div className="itemmenu">
             <span>CONTACT</span>
+          </div>
+        </Link>
+        <Link to="rates" onClick={closingMenu} smooth={true} duration={500}>
+          <div className="itemmenu">
+            <span>EXCHANGE RATES</span>
           </div>
         </Link>
       </div>
